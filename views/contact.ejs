@@ -1,0 +1,132 @@
+<!-- 
+   File name: contact.ejs
+   Student’s Name: King Yin Pang
+   StudentID: 301268737 
+   Date: 2023-09-30 
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Information and Title -->
+        <title>Personal Portfolio - Contact</title>
+        <!-- Link to the external stylesheet for styling the web page -->
+        <link rel="stylesheet" type="text/css" href="stylesheets/contact.css">
+    </head>
+    <body>
+        <!-- Header Section: Contains logo, site title, and main navigation -->
+        <header>
+            <!-- Banner with Company Logo and Site Title -->
+            <div class="banner">
+                <a href="/index"><img src="images/company_logo.png" alt="Company Logo"></a>
+                <h1>Personal Portfolio</h1>
+            </div>
+            <!-- Main Navigation -->
+            <nav id="nav_menu">
+                <ul>
+                    <li><a href="/index">Home</a></li>
+                    <li><a href="/about">About Me</a></li>
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/services">Services</a></li>
+                    <li><a href="/contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+         <!-- Main Content -->
+        <section id="home">
+            <!-- Contact Information Displayed -->
+            <div class="contact-info">
+                <div class="container-2">
+                    <!-- Image of Self -->
+                    <div class="self-info">
+                      <img src="images/Self-pic.jpg" alt="Self Photo">
+                    </div>
+                    <!-- Actual Contact Details -->
+                    <div class="contact">
+                        <h1>Contact Information</h1>
+                        <p>Email: <a href="mailto:marcopang7899@gmail.com">kpang10@my.centennialcollege.ca</a></p>
+                        <p>Phone: (437)-299-5361</p>
+                        <p>Whatsapp: <a href="https://wa.me/14372995361" target="_blank">Contact Me</a></p>
+                        <br>
+                        <p>You can also contact me using the form below.</p>
+                    </div>
+            </div>  
+            <!-- Contact Form Section -->
+            <div class="container">               
+                <div class="contact_form">
+                    <div class="formbold-main-wrapper">             
+                      <div class="formbold-form-wrapper">
+                        <form action="mailto:kpang10@my.centennialcollege.ca" method="POST">
+                            <div class="formbold-input-flex">
+                              <div>
+                                  <label for="firstname" class="formbold-form-label"> First name </label>
+                                  <input
+                                  type="text"
+                                  name="firstname"
+                                  id="firstname"
+                                  placeholder="John"
+                                  class="formbold-form-input"
+                                  />
+                              </div>
+                              <div>
+                                  <label for="lastname" class="formbold-form-label"> Last name </label>
+                                  <input
+                                  type="text"
+                                  name="lastname"
+                                  id="lastname"
+                                  placeholder="Shin"
+                                  class="formbold-form-input"
+                                  />
+                              </div>
+                            </div>
+                    
+                            <div class="formbold-input-flex">
+                              <div>
+                                  <label for="email" class="formbold-form-label"> Mail </label>
+                                  <input
+                                  type="email"
+                                  name="email"
+                                  id="email"
+                                  placeholder="abc@gmail.com"
+                                  class="formbold-form-input"
+                                  />
+                              </div>
+                              <div>
+                                  <label for="phone" class="formbold-form-label"> Phone </label>
+                                  <input
+                                  type="text"
+                                  name="phone"
+                                  id="phone"
+                                  placeholder="(888) 123-4567"
+                                  class="formbold-form-input"
+                                  />
+                              </div>
+                            </div>
+                    
+                            <div class="formbold-form-label">
+                                <label for="message" class="formbold-form-label"> Message </label>
+                                <textarea
+                                    rows="6"
+                                    name="message"
+                                    id="message"
+                                    placeholder="Type your message"
+                                    class="formbold-form-input"
+                                ></textarea>
+                            </div>
+                    
+                            <button class="button" type="submit">Click to submit</input>
+                            <button class="button" type="reset">Clear Form</input>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+
+        </div>
+        </section>
+        
+        <!-- Footer Section: Contains copyright notice -->
+      <footer>
+        <p>Copyright © 2023 King Yin Pang</p>
+      </footer>
+    </body>
+</html>
