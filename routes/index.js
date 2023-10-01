@@ -3,8 +3,11 @@ var router = express.Router();
 
 // Home page
 router.get('/', function(req, res, next) {
-  res.redirect('/index');
-  res.render('index', { title: 'Home' });
+  res.render('index', { title: 'Home' }); 
+});
+
+router.get('/index', function(req, res) {
+  res.redirect('/');
 });
 
 // About page
